@@ -175,9 +175,84 @@ nav ul li a {
 .txt-content {
     width: 720px;
     height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #f1f1f1;
     box-shadow: -8px 8px 20px #30303030;
     z-index: 5;
+}
+
+.at-txt {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.at-txt h2 {
+    width: 100%;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.at-txt h3 {
+    width: 100%;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.at-txt p {
+    width: 90%;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.at-btn {
+    width: 35%;
+    height: 60px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bff59c50;
+    overflow: hidden;
+}
+
+.at-btn:hover .at-btn-line {
+    width: 100%;
+    transition: .4s;
+}
+
+.at-btn:active .at-btn-line {
+    width: 100%;
+    height: 100%;
+    transition: .2s;
+}
+
+.at-txt a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    color: #2f2c29;
+    position: absolute;
+    z-index: 7;
+}
+
+.at-btn-line {
+    width: 0px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    z-index: 6;
+    background-color: #8eb876;
 }
 
 .img-content {
