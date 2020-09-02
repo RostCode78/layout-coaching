@@ -270,3 +270,18 @@ nav ul li a {
     background-position: center;
     background-size: cover;
 }
+
+@media (max-width: 770px) {
+    .header-video video {
+        margin-left: -200px;
+    }
+    nav ul {
+        width: 90%;
+    }
+}
+
+@media (max-width: 610px) {
+    nav ul {
+        display: none;
+    }
+}
