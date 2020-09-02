@@ -7,6 +7,10 @@
     overflow-x: hidden;
 }
 
+body>div {
+    overflow: hidden;
+}
+
 #header {
     height: 100vh;
     display: flex;
@@ -277,6 +281,43 @@ nav ul li a {
     }
     nav ul {
         width: 90%;
+    }
+    #about {
+        height: 170vh;
+    }
+    .a-content {
+        flex-direction: column-reverse;
+    }
+    .txt-content {
+        width: 95%;
+        height: auto;
+    }
+    .at-txt {
+        align-items: center;
+    }
+    .at-txt h2 {
+        height: 60px;
+        font-size: 2.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .at-txt h3 {
+        height: 50px;
+        font-size: 1.4em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .at-txt p {
+        text-align: center;
+        height: 160px;
+        font-size: 1.1em;
+        margin-bottom: 0px;
+    }
+    .img-content {
+        margin-left: 0px;
+        margin-top: 30px;
     }
 }
 
