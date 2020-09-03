@@ -2,6 +2,12 @@ const query = document.querySelector.bind(document);
 const all = document.querySelectorAll.bind(document);
 const print = console.log;
 
+const contentModal = `
+<div class="content-modal">
+   <div class="box-modal"></div>
+</div>
+`;
+
 let pm = {
    btn: all('.gallery h2'),
    modal: query('.modal-g-content')
@@ -28,6 +34,7 @@ let mm = {
 
       pm.modal.style.display = "flex";
       pm.modal.style.marginRight = "0px";
+      //pm.modal.innerHTML = contentModal;
 
       if( e.target == pm.btn[0]){
 
