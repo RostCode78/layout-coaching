@@ -9,7 +9,7 @@ const titulo1 = `
 <h2>Diagnostico Empresarial.</h2>
 `;
 const titulo2 = `
-<h2>Negocio Funcional.</h2>
+<h2>Estrategia Funcional.</h2>
 `;
 const titulo3 = `
 <h2>Seminarios y Talleres.</h2>
@@ -20,7 +20,7 @@ const modal0 = `
    <div class="modal-opacity"></div>
    <div class="modal-information">
    <div class="m-information-txt">
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed aliquid nostrum quibusdam, dignissimos repellendus eum nulla voluptate. Dignissimos, voluptatem ipsum doloremque eius possimus placeat nulla ratione officia error, ut excepturi sit, voluptatibus tempora non ipsam? Aperiam est eveniet quod consequatur, adipisci eius voluptatibus animi fugiat saepe autem repellat pariatur necessitatibus! Tempora dolorum ducimus quos corporis ea repellat, aliquid qui cupiditate ab. Eius adipisci nihil veniam sit saepe recusandae quam nostrum, iste facilis nobis doloremque reiciendis, iusto et eos enim.</p>
+      <p>Sesiones individuales, por lo tanto, personalizadas en lo que deseas conseguir. Es decir, cuentas con un coach exclusivo para ti que facilita el proceso de aprendizaje. El coachee tendrá el privilegio de elegir el tema que desea trabajar.</p>
    </div>
    <div class="m-information-btn">
       <div class="at-btn">
@@ -36,7 +36,7 @@ const modal1 = `
    <div class="modal-opacity"></div>
    <div class="modal-information">
    <div class="m-information-txt">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat natus iusto laudantium commodi velit nisi aliquid error, dolorum labore exercitationem qui reiciendis consequuntur eveniet? Accusamus, perferendis aut laboriosam id dicta hic eos nihil, veritatis reiciendis, adipisci tempore? Beatae eligendi et fugiat minus, commodi, iste aliquam officiis incidunt accusantium velit dolorum necessitatibus quia rem similique atque doloribus odit distinctio id officia.</p>
+      <p>Si lo que queremos es conocer la actual situación de una empresa y cuáles están siendo los principales obstáculos que le impiden seguir creciendo, el diagnóstico empresarial es una de las herramientas más recurridas y eficaces para poder realizar este tipo de estudios. Gracias a este diagnóstico podremos encontrar la raíz del problema, lo que nos permitirá poner todos los recursos necesarios para eliminarla y hacer que la corporación mantenga, o recupere, el buen rumbo.</p>
    </div>
    <div class="m-information-btn">
       <div class="at-btn">
@@ -52,7 +52,7 @@ const modal2 = `
    <div class="modal-opacity"></div>
    <div class="modal-information">
    <div class="m-information-txt">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nam nesciunt iusto illum, rerum quidem voluptatem esse cumque cum, similique natus odio blanditiis officiis excepturi eligendi. Ex soluta animi accusamus magni expedita esse praesentium, repellat dicta rem fugit, dolores asperiores, hic nisi non molestiae ea quidem ut. Facilis hic mollitia necessitatibus impedit voluptas. Et ut neque quaerat officiis ipsam aliquid amet repellendus, libero expedita tenetur nam esse, repellat impedit accusantium!</p>
+      <p>La estrategia empresarial, consistente en definir cada una de las estrategias funcionales u operativas en las que se desglosa la empresa. Se trata de definir una estrategia para cada una de las áreas funcionales o departamentos de la empresa. Aun siendo acciones a largo plazo, se trata de acciones que sirven para hacer efectiva o facilitar la ejecución de la estrategia global de la empresa.</p>
    </div>
    <div class="m-information-btn">
       <div class="at-btn">
@@ -68,7 +68,7 @@ const modal3 = `
    <div class="modal-opacity"></div>
    <div class="modal-information">
    <div class="m-information-txt">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea maiores fuga, cum ducimus rem, aut, corrupti itaque veritatis accusantium ratione provident aliquid deserunt harum et. Officiis eius, voluptatibus minima beatae obcaecati quam ab quasi rem iste, sequi consequatur recusandae facere earum molestias laudantium quibusdam aperiam sint est numquam. Quo, nobis?</p>
+      <p>Nuestros seminarios en línea le brindan información valiosa para lograr un proposito y cubren un amplio espectro de temas, incluso métodos de enseñanza eficaces, consejos para mejorar la eficiencia en tu negocio y desarrollo profesional en línea para mejorar habilidades.</p>
    </div>
    <div class="m-information-btn">
       <div class="at-btn">
