@@ -100,8 +100,6 @@ let mm = {
 
       });
 
-      print(pm.btn[1]);
-
    },
 
    exit: () => {

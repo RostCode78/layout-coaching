@@ -665,13 +665,35 @@ nav ul li a {
     width: 62%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.titulo-form {
+    width: 80%;
+    height: 18%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-form h2 {
+    color: #303030;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.titulo-form h3 {
+    color: #9b9b9b;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
 form {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -680,37 +702,36 @@ form {
 
 .nombre-form {
     width: 100%;
-    height: 15%;
-    position: relative;
+    height: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
-.nombre-form>label,
-.email-form>label {
+.lbl-form {
     width: 70%;
     position: absolute;
     margin-left: 5px;
+    color: #9b9b9b;
+    cursor: text;
 }
 
-#nombre,
-#email {
+.input-form {
     width: 70%;
+    height: 30px;
     padding: 5px;
-    border: 2px solid #c2c2c2;
+    border: 2px solid #e4e4e4;
 }
 
-#nombre:focus {
+.input-form:focus {
     outline: none !important;
     border: 2px solid #b9e79e;
 }
 
 .email-form {
     width: 100%;
-    height: 15%;
-    background-color: #dfd656;
+    height: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -719,22 +740,54 @@ form {
 
 .mensaje-form {
     width: 100%;
-    height: 30%;
-    background-color: #df5656;
+    height: 35%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
 }
 
+.mensaje-form textarea {
+    width: 70%;
+    height: 70%;
+    padding: 5px;
+    border: 2px solid #e4e4e4;
+}
+
+.mensaje-form textarea:focus {
+    outline: none !important;
+    border: 2px solid #b9e79e;
+}
+
+.lbl-mensaje {
+    width: 70%;
+    position: absolute;
+    margin-top: -65px;
+    margin-left: 5px;
+    color: #9b9b9b;
+}
+
 .enviar-form {
     width: 100%;
     height: 15%;
-    background-color: #566bdf;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.enviar-form input {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff00;
+    cursor: pointer;
+    border: 0px;
+    color: #303030;
+    font-size: 1em;
+    letter-spacing: 1px;
+    position: absolute;
+    z-index: 7;
 }
 
 .c-datos {
