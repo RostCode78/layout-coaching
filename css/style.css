@@ -300,6 +300,7 @@ nav ul li a {
     height: 100%;
     /*background-color: #775897;*/
     background-image: url(../img/about.jpg);
+    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
