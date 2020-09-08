@@ -87,6 +87,33 @@ nav ul li a {
     background-repeat: no-repeat;
 }
 
+.btn-menu {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    box-shadow: 0px 0px 7px 1px #2f2c292b;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.content-nb {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btn-nb {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #bff59c;
+}
+
 .header-video {
     position: absolute;
     top: 0;

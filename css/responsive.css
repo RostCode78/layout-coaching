@@ -1,3 +1,29 @@
+@media (max-width: 1024px) {
+    .g-container {
+        height: 90%;
+        flex-direction: column;
+    }
+    .izq-g {
+        width: 100%;
+        height: 50%;
+    }
+    .der-g {
+        width: 100%;
+        height: 100%;
+    }
+    .c-form {
+        margin-left: -200px;
+    }
+    .form {
+        width: 85%;
+        height: 100%;
+    }
+    .c-datos {
+        height: 45%;
+        margin-right: -550px;
+    }
+}
+
 @media (max-width: 770px) {
     .header-video video {
         margin-left: -200px;
@@ -42,10 +68,103 @@
         margin-left: 0px;
         margin-top: 30px;
     }
+    .modal-information {
+        height: 60%;
+    }
+    .m-information-txt p {
+        font-size: 0.7em;
+    }
+    .m-information-btn>.at-btn {
+        width: 40%;
+        height: 50px;
+    }
+    .circle-exit {
+        width: 40px;
+        height: 40px;
+        font-size: 1em;
+    }
+    #contacto {
+        height: 120vh;
+    }
+    .c-container {
+        height: 100%;
+        flex-direction: column;
+        position: initial;
+        justify-content: center;
+    }
+    .c-form {
+        width: 75%;
+        height: 55%;
+        position: initial;
+        margin-left: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .form {
+        width: 100%;
+    }
+    .titulo-form {
+        height: 20%;
+        align-items: center;
+        justify-content: center;
+    }
+    form {
+        height: 70%;
+    }
+    .nombre-form {
+        align-items: center;
+    }
+    .email-form {
+        align-items: center;
+    }
+    .mensaje-form {
+        height: 30%;
+        align-items: center;
+    }
+    .lbl-form {
+        margin-left: 225px;
+    }
+    .lbl-mensaje {
+        margin-top: -45px;
+        margin-left: 225px;
+    }
+    .enviar-form {
+        align-items: center;
+    }
+    .c-datos {
+        width: 75%;
+        height: 30%;
+        position: initial;
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 610px) {
+    nav {
+        height: 70px;
+        background-color: #00000000;
+        justify-content: flex-end;
+    }
     nav ul {
         display: none;
+    }
+    .a-container {
+        height: 100%;
+    }
+    .img-content {
+        margin-top: 0px;
+    }
+    .btn-menu {
+        display: flex;
+    }
+    .titulo-form h3 {
+        text-align: center;
+    }
+    .lbl-form {
+        margin-left: 170px;
+    }
+    .lbl-mensaje {
+        margin-left: 170px;
     }
 }
