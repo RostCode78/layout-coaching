@@ -8,6 +8,10 @@
     color: #303030;
 }
 
+body {
+    width: 100vw;
+}
+
 body>div {
     overflow: hidden;
 }
