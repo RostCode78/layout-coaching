@@ -8,10 +8,6 @@
     color: #303030;
 }
 
-body {
-    width: 100vw;
-}
-
 body>div {
     overflow: hidden;
 }
@@ -308,6 +304,11 @@ nav ul li a {
     background-position: center;
     background-size: cover;
 }
+
+
+/*============================
+=          GALLERY           =
+============================*/
 
 #gallery {
     width: 100vw;
@@ -664,6 +665,11 @@ nav ul li a {
     box-shadow: 0px 0px 20px #f1f1f100;
 }
 
+
+/*============================
+=         CONTACTO           =
+============================*/
+
 #contacto {
     width: 100vw;
     height: 100vh;
@@ -693,7 +699,7 @@ nav ul li a {
     justify-content: flex-start;
 }
 
-.form {
+.content-form {
     width: 62%;
     height: 100%;
     display: flex;
@@ -707,6 +713,8 @@ nav ul li a {
     height: 18%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-form h2 {
@@ -723,104 +731,132 @@ nav ul li a {
     letter-spacing: 2px;
 }
 
-form {
-    width: 80%;
-    height: 60%;
+
+/*==== FORM 2 ====*/
+
+#form2 {
+    width: 100%;
+    height: 82%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
 }
 
-.nombre-form {
-    width: 100%;
-    height: 25%;
+.dato-form2 {
+    width: 90%;
+    height: 40px;
     display: flex;
-    flex-direction: column;
+    background-color: #f1f1f1;
     justify-content: center;
-    align-items: flex-start;
-}
-
-.lbl-form {
-    width: 70%;
-    position: absolute;
-    margin-left: 5px;
-    color: #9b9b9b;
-    cursor: text;
-}
-
-.input-form {
-    width: 70%;
-    height: 30px;
-    padding: 5px;
-    border: 2px solid #e4e4e4;
-}
-
-.input-form:focus {
-    outline: none !important;
-    border: 2px solid #b9e79e;
-}
-
-.email-form {
-    width: 100%;
-    height: 25%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.mensaje-form {
-    width: 100%;
-    height: 35%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-
-.mensaje-form textarea {
-    width: 70%;
-    height: 70%;
-    padding: 5px;
-    border: 2px solid #e4e4e4;
-}
-
-.mensaje-form textarea:focus {
-    outline: none !important;
-    border: 2px solid #b9e79e;
-}
-
-.lbl-mensaje {
-    width: 70%;
-    position: absolute;
-    margin-top: -65px;
-    margin-left: 5px;
-    color: #9b9b9b;
-}
-
-.enviar-form {
-    width: 100%;
-    height: 15%;
-    display: flex;
+    align-items: center;
     position: relative;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    overflow: visible!important;
 }
 
-.enviar-form input {
+.input-form2 {
+    width: 90%;
+    height: 85%;
+    background-color: #f1f1f100;
+    border: 2px solid #e4e4e400;
+    position: absolute;
+    font-size: 1.1em;
+}
+
+.input-form2:focus {
+    outline: none !important;
+}
+
+.lbl-form2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 1.2em;
+    color: #9b9b9b;
+}
+
+.line-form {
+    width: 100%;
+    height: 5px;
+    background-color: #b9e79e;
+    position: absolute;
+    opacity: 0;
+    left: -450px;
+    bottom: 0px;
+}
+
+.mensaje-form2 {
+    width: 90%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: visible!important;
+}
+
+.textarea-form2 {
+    width: 95%;
+    height: 90%;
+    background-color: #f1f1f100;
+    border: 2px solid #e4e4e400;
+    position: absolute;
+    font-size: 1.1em;
+}
+
+.textarea-form2:focus {
+    outline: none !important;
+    border: 2px solid #e4e4e4b7;
+}
+
+.lbl-mensaje2 {
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 1.2em;
+    color: #9b9b9b;
+}
+
+.enviar-form2 {
+    width: 25%;
+    height: 50px;
+    background-color: red;
+    position: relative;
+}
+
+.btn-form {
     width: 100%;
     height: 100%;
-    background-color: #ffffff00;
-    cursor: pointer;
-    border: 0px;
-    color: #303030;
-    font-size: 1em;
-    letter-spacing: 1px;
-    position: absolute;
-    z-index: 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.btn-form:hover .line-form {
+    left: 0px;
+    opacity: 1;
+    transition: .2s;
+}
+
+.btn-form input {
+    width: 100%;
+    height: 100%;
+    background-color: #e7ffda;
+    cursor: pointer;
+    border: 2px solid #e4e4e400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    letter-spacing: 2px;
+}
+
+
+/*==== C-DATOS ====*/
 
 .c-datos {
     width: 30%;
@@ -888,6 +924,11 @@ form {
     margin-left: 10px;
     font-size: 1em;
 }
+
+
+/*================================
+=         END-CONTACTO           =
+================================*/
 
 #footer {
     width: 100vw;

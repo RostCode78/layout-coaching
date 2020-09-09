@@ -1,13 +1,14 @@
 let pf = {
-   inputForm: $$('.input-form'),
-   lblForm: $$('.lbl-form'),
-   textarea: $('#mensaje'),
-   lblMensaje: $('.lbl-mensaje')
+   inputForm: $$('.input-form2'),
+   lblForm: $$('.lbl-form2'),
+   lineForm: $$('.line-form'),
+   textarea: $('.textarea-form2'),
+   lblMensaje: $('.lbl-mensaje2')
 }
 
 let focusStyle = `
 transition: .4s;
-margin-top: -70px;
+margin-top: -35px;
 color: #303030;
 cursor: default;
 `;
@@ -29,6 +30,18 @@ let mensajeBlur = `
 color: #9b9b9b;
 transition: .4s;
 display: initial;
+`;
+
+let lineFocus = `
+left: 0px;
+opacity: 1;
+transition: .4s;
+`;
+
+let lineBlur = `
+left: -450px;
+opacity: 0;
+transition: .4s;
 `;
 
 let mf = {
@@ -64,6 +77,7 @@ let mf = {
    textareaFocus: () => {
       
       pf.lblMensaje.style += `; ${mensajeFocus}`;
+      pf.lineForm[2].style += `; ${lineFocus}`;
 
    },
 
@@ -72,6 +86,7 @@ let mf = {
       if( pf.textarea.value == "" ){
 
          pf.lblMensaje.style += `; ${mensajeBlur}`;
+         pf.lineForm[2].style += `; ${lineBlur}`;
          þ(pf.textarea.value);
 
       }
@@ -82,8 +97,10 @@ let mf = {
 
       if( e.target == pf.inputForm[0] ) {
          pf.lblForm[0].style += `; ${focusStyle}`;
+         pf.lineForm[0].style += `; ${lineFocus}`;
       } else {
          pf.lblForm[1].style += `; ${focusStyle}`;
+         pf.lineForm[1].style += `; ${lineFocus}`;
       }
 
    },
@@ -94,12 +111,14 @@ let mf = {
 
          if(pf.inputForm[0].value == ""){
             pf.lblForm[0].style += `; ${blurStyle}`;
+            pf.lineForm[0].style += `; ${lineBlur}`;
          };
 
       } else {
 
          if(pf.inputForm[1].value == ""){
             pf.lblForm[1].style += `; ${blurStyle}`;
+            pf.lineForm[1].style += `; ${lineBlur}`;
          };
 
       }
