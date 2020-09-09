@@ -14,7 +14,7 @@
     .c-form {
         margin-left: -200px;
     }
-    .form {
+    .content-form {
         width: 85%;
         height: 100%;
     }
@@ -101,7 +101,7 @@
         align-items: center;
         margin-bottom: 20px;
     }
-    .form {
+    .content-form {
         width: 100%;
     }
     .titulo-form {
@@ -109,7 +109,7 @@
         align-items: center;
         justify-content: center;
     }
-    form {
+    #form {
         height: 70%;
     }
     .nombre-form {
@@ -208,10 +208,7 @@
     .titulo-form h3 {
         text-align: center;
     }
-    .lbl-form {
-        margin-left: 170px;
-    }
-    .lbl-mensaje {
-        margin-left: 170px;
+    #contacto {
+        height: 155vh;
     }
 }
