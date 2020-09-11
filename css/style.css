@@ -242,6 +242,7 @@ nav {
     justify-content: center;
     flex-direction: row;
     z-index: 100;
+    left: 0;
 }
 
 nav ul {
