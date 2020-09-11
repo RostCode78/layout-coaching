@@ -22,6 +22,69 @@
         height: 45%;
         margin-right: -550px;
     }
+    .content-comentario p {
+        height: 100%;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 900px) {
+    #modal {
+        flex-direction: column;
+    }
+    .izq-modal {
+        width: 100%;
+        height: 65%;
+    }
+    .content-modal {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        z-index: 5;
+    }
+    .content-btn {
+        height: 15%;
+    }
+    .der-modal {
+        width: 100%;
+        height: 35%;
+    }
+    .content-titulo {
+        width: 95%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-titulo h2 {
+        width: 100%;
+        height: 70%;
+        font-size: 2.5em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-comentario {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .content-comentario p {
+        width: 95%;
+        height: 80%;
+        font-size: 1em;
+        text-align: center;
+    }
+    .content-boton {
+        height: 20%;
+    }
 }
 
 @media (max-width: 770px) {
@@ -93,7 +156,7 @@
         justify-content: center;
     }
     .c-form {
-        width: 75%;
+        width: 90%;
         height: 55%;
         position: initial;
         margin-left: 0px;
@@ -105,7 +168,9 @@
         width: 100%;
     }
     .titulo-form {
+        width: 100%;
         height: 20%;
+        text-align: center;
         align-items: center;
         justify-content: center;
     }
@@ -252,5 +317,59 @@
     }
     #contacto {
         height: 155vh;
+    }
+}
+
+@media (max-width: 480px) {
+    #about {
+        height: 150vh;
+    }
+    .txt-content {
+        width: 100%;
+        height: 400px;
+        box-shadow: -8px 8px 20px #30303000;
+    }
+    .at-btn {
+        width: 55%;
+    }
+    .content-titulo h2 {
+        font-size: 1.5em;
+    }
+    .content-comentario p {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 375px) {
+    .at-txt h2 {
+        font-size: 2em;
+    }
+    .at-txt p {
+        height: 200px;
+    }
+    .at-btn {
+        width: 70%;
+    }
+    .c-datos {
+        width: 90%;
+    }
+    .titulo-datos {
+        width: 100%;
+        justify-content: center;
+    }
+    .titulo-form h2 {
+        font-size: 1.4em;
+    }
+    .titulo-form h3 {
+        font-size: 0.8em;
+    }
+    .txt-dato p {
+        font-size: 0.9em;
+    }
+    .izq-modal {
+        height: 50%;
+    }
+    .der-modal {
+        height: 50%;
     }
 }

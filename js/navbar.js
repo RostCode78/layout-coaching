@@ -13,6 +13,7 @@ let pn = {
    navbar: $('#navbar'),
    listMenu: $('.list-menu'),
    body: $('body'),
+   btnMenu: $$('.m-list-content ul li a'),
    open: true
 }
 
@@ -24,6 +25,13 @@ let mn = {
          'click',
          mn.abrirMenu
       );
+
+      pn.btnMenu.forEach( e => {
+         e.addEventListener(
+            'click',
+            mn.btnCerrar
+         )
+      });
 
    },
 
@@ -55,12 +63,10 @@ let mn = {
 
          pn.open = false;
 
-         þ('Abierto');
-
       } else if ( !pn.open ) {
 
          pn.btn.style += `; ${bigMenu}`;
-         pm.body.style.overflow = "initial";
+         pm.body.style.overflowY = "initial";
          pn.btn.innerHTML = "";
 
          setTimeout(() => {
@@ -79,9 +85,20 @@ let mn = {
 
          pn.open = true;
 
-         þ('Cerrado');
-
       }
+
+   },
+
+   btnCerrar: ( e ) => {
+
+      pm.body.style.overflowY = "initial";
+      pn.btn.style += `; ${smallMenu}`;
+      pn.btn.innerHTML = `<i class="fas fa-bars"></i>`;    
+      pn.listMenu.style.display = "none";
+      pn.navbar.style.height = "10vh";
+      pn.navbar.style.backgroundColor = "#00000000";
+
+      pn.open = true;
 
    }
 

@@ -144,7 +144,7 @@ let mm = {
    cerrarModal: () => {
 
       pm.modal.style.display = "none";
-      pm.body.style.overflow = "initial";
+      pm.body.style.overflowY = "initial";
 
    }
 
